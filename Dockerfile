@@ -7,7 +7,7 @@ USER root
 
 ENV HADOOP_VERSION 3.2.1
 
-RUN apt-get -y update \
+RUN apt-get -y update && \
     apt-get install --no-install-recommends -y \
                 openjdk-8-jdk-headless \
                 wget ssh pdsh rsync sudo \
