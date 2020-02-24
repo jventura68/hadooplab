@@ -97,4 +97,6 @@ comprobar ssh
     $ start-dfs.sh
     $ start-yarn.sh
 
+    hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.1.jar wordcount input output
+
 
